@@ -1,74 +1,127 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 /*============*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
-
 }
 
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    background-color: #F1E0AC;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #f1e0ac;
 }
 
 .navbar ul {
-    display: flex;
-    margin-right: 30px;
+  display: flex;
+  margin-right: 30px;
 }
-.navbar ul li{
-    margin: 12px;
-    list-style: none;
-    overflow: hidden;
+.navbar ul li {
+  margin: 12px;
+  list-style: none;
+  overflow: hidden;
 }
 
 .logo {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-.logo #read{
-    font-size: 27px;
-    color: #98B4AA;
-    font-weight: bold;
-    cursor: pointer;
-    text-shadow: 2px 2px 4px #495371;
+.logo #read {
+  font-size: 27px;
+  color: #98b4aa;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px #495371;
 }
-.logo #more{
-    font-size: 27px;
-    color: #495371;
-    font-weight: bold;
-    background-color: #98B4AA;
-    border-radius: 8px;
-    padding: 3px;
-    cursor: pointer;
+.logo #more {
+  font-size: 27px;
+  color: #495371;
+  font-weight: bold;
+  background-color: #98b4aa;
+  border-radius: 8px;
+  padding: 3px;
+  cursor: pointer;
 }
 
 .search {
-    padding-left: 25px;
-    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
-    background-size: 20px;
-    border-radius: 8px;
-    height: 38px;
-    background-color: #fff;
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat left;
+  background-size: 20px;
+  border-radius: 8px;
+  height: 38px;
+  background-color: #fff;
+}
+
+.search::placeholder {
+  color: #78b4aa;
+  font-weight: bold;
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: #495371;
-    font-weight:bold;
-    transition: .3s;
+  text-decoration: none;
+  color: #495371;
+  font-weight: bold;
+  transition: 0.3s;
 }
 .navbar ul li a:hover {
-    color: #98B4AA;
+  color: #78b4aa;
 }
 
+/*Post area*/
 
+header {
+  background-color: #74959a;
+  padding: 2px;
+}
+.postarea {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+  margin-top: 22px;
+}
+.postarea #book-review {
+  margin-right: 25em;
+}
+.postarea #book-review::placeholder {
+  color: #78b4aa;
+  font-weight: bold;
+}
+
+.postarea #btn {
+  position: absolute;
+  width: 75px;
+  height: 36px;
+  right: 190px;
+  top: 110px;
+  background: #f1e0ac;
+  box-shadow: 0px 4px 4px #495371;
+  z-index: 2;
+  cursor: pointer;
+  color: #495371;
+  font-weight: bold;
+}
+
+.postarea #btn:hover {
+  background-color: #78b4aa;
+  color: #f1e0ac;
+}
+
+#user {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #495371;
+}
+
+#user img {
+  width: 100%;
+}
