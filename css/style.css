@@ -40,6 +40,7 @@
     color: #98B4AA;
     font-weight: bold;
     cursor: pointer;
+    text-shadow: 2px 2px 4px #495371;
 }
 .logo #more{
     font-size: 27px;
@@ -59,3 +60,15 @@
     height: 38px;
     background-color: #fff;
 }
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #495371;
+    font-weight:bold;
+    transition: .3s;
+}
+.navbar ul li a:hover {
+    color: #98B4AA;
+}
+
+
