@@ -1,11 +1,61 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+/*============*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*.search {
+:root {
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #F1E0AC;
+}
+
+.navbar ul {
+    display: flex;
+    margin-right: 30px;
+}
+.navbar ul li{
+    margin: 12px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo #read{
+    font-size: 27px;
+    color: #98B4AA;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo #more{
+    font-size: 27px;
+    color: #495371;
+    font-weight: bold;
+    background-color: #98B4AA;
+    border-radius: 8px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.search {
     padding-left: 25px;
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
     background-size: 20px;
-}*/
+    border-radius: 8px;
+    height: 38px;
+    background-color: #fff;
+}
