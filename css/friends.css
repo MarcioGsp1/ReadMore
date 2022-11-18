@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #f1e0ac;
+    --secondary-color: #78b4aa;
+    --tertiary-color: #495371;
+  }
+
+  footer .socials #copyright {
+    position: absolute;
+    bottom: -80px !important;
+    right: 55px;
+    color: var(--tertiary-color);
+  }
