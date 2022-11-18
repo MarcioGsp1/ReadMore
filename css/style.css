@@ -78,7 +78,7 @@
 /*Post area*/
 
 header {
-  background-color: #74959a;
+  background-color: #78b4aa;
   padding: 2px;
 }
 .postarea {
@@ -110,7 +110,7 @@ header {
 }
 
 .postarea #btn:hover {
-  background-color: #78b4aa;
+  background-color: #495371;
   color: #f1e0ac;
 }
 
@@ -222,3 +222,55 @@ header {
   border-radius: 50px;
   box-shadow: 0px 4px 4px #000;
   }
+
+  footer {
+    background-color: #78b4aa;
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+  }
+
+  footer .about a {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 18px;
+    color: #495371;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+  footer .about a:hover {
+      color: #f1e0ac;
+  }
+
+  footer .socials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer .socials p {
+    position: absolute;
+    color: #495371;
+    right: 40px;
+    padding: 20px;
+  }
+ 
+  footer .socials #copyright {
+    position: absolute;
+    bottom: -210px;
+    right: 55px;
+    color: #495371;
+  }
+ 
+footer .icons {
+  display: flex;
+  flex-direction: column;
+}
+footer .icons a{
+  color: #495371;
+  text-decoration: none;
+  padding: 5px;
+}
